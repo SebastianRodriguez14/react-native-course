@@ -21,6 +21,7 @@ export const CharactersList = () => {
 
 const styles = StyleSheet.create({
   container_characters_list: {
-    paddingHorizontal: 10
+    paddingHorizontal: 10,
+    marginVertical: 10
   },
 });

@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
     highlighted: {color: theme.colors.highlighted},
     title: {fontSize: theme.fontSizes.title, fontFamily: theme.fontFamily.title},
     subTitle: {fontSize: theme.fontSizes.subTitle},
-
 })
 
 export const StyledText = ({children, semibold, bold, primary, highlighted, title, subTitle, ...otherProps}) => {
